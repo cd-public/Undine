@@ -41,3 +41,11 @@ Let's look back to the overall property once more:
 G(("FFex_insn[11:8]==0000" & "FFex_insn[15:12]==0000") -> "TFeear==epcr")
 
 In plain English, this means that globally, when the verilog expressions "ex_insn[11:8]==0000" and "ex_insn[15:12]==0000" are true, correspond to a slice-value Undine type, and are recognized as security signals as that type, this implies that the verilog expression "eear==epcr" is true, corresponds to a register-register Undine type, and is recognized as a security signal as that type.
+
+## Acknowledgements.  
+
+This material is based upon work
+supported by the National Science Foundation under Grants
+No. CNS-1651276 and CNS-1816637, by the Semiconductor
+Research Corporation, Intel, and by a Google Faculty Research
+Award.
