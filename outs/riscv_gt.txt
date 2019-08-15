@@ -1,0 +1,2 @@
+G"TFctrl_io_alu_op==dpath_io_ctrl_alu_op"
+G"TFio_epc==mepc"

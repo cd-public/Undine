@@ -1,0 +1,6 @@
+"BFrst==0" U G"TFeear==epcr"
+"BFrst==0" U G"TFoperand_b==spr_dat_cpu"
+"BFrst==1" U G"TFeear==epcr"
+"BFrst==1" U G"TFoperand_b==spr_dat_cpu"
+"BFrst==x" U G"TFeear==epcr"
+"BFrst==x" U G"TFoperand_b==spr_dat_cpu"

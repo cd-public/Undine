@@ -1,0 +1,3 @@
+G"TFdu_dat_i[31:0]==snoop_adr_i[31:0]"
+G"TFspr_bus_dat_i[31:0]==spr_bus_dat_o[31:0]"
+G"TFspr_sr[15:0]==spr_sr_o[15:0]"

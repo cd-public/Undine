@@ -1,0 +1,4 @@
+66 valids, 2 properties, post reset trace, 0.600 seconds
+
+G"TFor1200_except.eear==or1200_except.epcr"
+G"TFor1200_lsu.dcpu_dat_i==or1200_mem2reg.memdata"

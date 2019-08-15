@@ -1,0 +1,15 @@
+or1200_4_b size: 4 template G((fa & fb) -> tc) - 1427798 valids, 1026262 properties, post reset trace, 3m37.988 seconds
+
+or1200_16_4 size: 4 template G(fa -> (fb | tc)) - 12717440 valids, 525322 properties, post reset trace, 25m21.896 seconds
+
+or1200_4_b size: 4 template G((fa & fb) -> bc) - 405768 valids, 204138 properties, post reset trace, 8m35.168 seconds
+
+or1200_16_not size: 8 template: G(fa -> ! tb) - 405768 valids, 204138 properties, post reset trace, 8m35.168 seconds
+
+or1200_16_not size: 8 template: G(fa -> ! tb) - 32895 valids, 24612 properties, post reset trace, 1.777 seconds
+
+or1200_32_fnotf size: 32 template: G(fa | ! fb) - 468540 valids, 4250 properties, post reset trace, 6.856 seconds
+
+or1200_8_f size: 8 template: G(fa -> fb) - 170156 valids, 5536 properties, post reset trace, 7.826 seconds
+
+or1200_32_t size: 32 template: G(ta) - 66 valids, 2 properties, post reset trace, 0.600 seconds
