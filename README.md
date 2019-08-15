@@ -1,5 +1,5 @@
 # Undine
-Public Github supporting the Undine publication from the Security132 group.  The publication is available at https://ieeexplore.ieee.org/document/8746060.
+Public Github supporting the Undine tool from the Security132 group.  Undine will be presented at Techcon 2019.
 
 The two directories are selected property outputs from the Undine tool with some notes to contextualize.
 
