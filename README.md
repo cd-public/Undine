@@ -28,9 +28,9 @@ TFeear==epcr
 
 "FF" or "TF" is the two character prefix.  
 
-The first character gives the type.  In the case of p_0, the type is "F" which is an internally type (for "field") in which some indexes over a register are compared to a static value that may be used to encode Undine's "slice-value", "register-value" and in some cases "bit-value" types as the preprocessor allows propositional variables to be generated from different slice sizes of a given register which can include single bit or full register length.  In the case of p_2, the type is "T" which is an internally type (for "test") in which two registers are compared to each other by some equality operator and can be used to encode Undine's "register-register" type.
+The first character gives the label.  In the case of p_0, the label is "F" which is an internally label (for "field") in which some indexes over a register are compared to a static value that may be used to encode Undine's "slice-value", "register-value" and in some cases "bit-value" labels as the preprocessor allows propositional variables to be generated from different slice sizes of a given register which can include single bit or full register length.  In the case of p_2, the label is "T" which is an internally label (for "test") in which two registers are compared to each other by some equality operator and can be used to encode Undine's "register-register" label.
 
-The second character identifies whether the follow verilog expression is a security signal for the type given by the first character.  In this case, both p_0 and p_2 are associated with security criticality for the given type so both are denoted "F" (for "flagged").  During development this field was ultimately always set to "F" and security signal logic was incorporated into the preprocessor but the field was maintained for future research.
+The second character identifies whether the follow verilog expression is a security signal for the label given by the first character.  In this case, both p_0 and p_2 are associated with security criticality for the given label so both are denoted "F" (for "flagged").  During development this field was ultimately always set to "F" and security signal logic was incorporated into the preprocessor but the field was maintained for future research.
 
 "ex_insn[11:8]==0000" or "eear==epcr" is the verilog expression.
 
@@ -40,7 +40,7 @@ Let's look back to the overall property once more:
 
 G(("FFex_insn[11:8]==0000" & "FFex_insn[15:12]==0000") -> "TFeear==epcr")
 
-In plain English, this means that globally, when the verilog expressions "ex_insn[11:8]==0000" and "ex_insn[15:12]==0000" are true, correspond to a slice-value Undine type, and are recognized as security signals as that type, this implies that the verilog expression "eear==epcr" is true, corresponds to a register-register Undine type, and is recognized as a security signal as that type.
+In plain English, this means that globally, when the verilog expressions "ex_insn[11:8]==0000" and "ex_insn[15:12]==0000" are true, correspond to a slice-value Undine label, and are recognized as security signals as that label, this implies that the verilog expression "eear==epcr" is true, corresponds to a register-register Undine label, and is recognized as a security signal as that label.
 
 ## Acknowledgements  
 
